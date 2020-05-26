@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  font-family: 'Manrope', sans-serif !important;
+  color:black;
+}
+.navbar-brand {
+  padding-right: 20px;
+}
+
+nav .navbar-nav li a {
+  padding-right: 30px !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 15px;
+}
+nav .navbar-nav li a:hover{
+  color: #73c7e6 !important;
+  }
+#login {
+  padding-right: 5px !important;
+}
+/* navigation bar css done */
+/* Banner CSS: */
+
+#head {
+  background-color: hsla(243, 41%, 11%, 1);
+  height: 600px;
+  color: white;
+}
+#head > p {
+  position: relative;
+  top: 120px;
+  color: #73c7e6;
+  font-size: 16px;
+}
+#graph {
+  position: relative;
+  top: -350px;
+}
+@media (max-width: 576px) {
+  #head > h1 {
+    font-size: 25px;
+  }
+  #head > button {
+    position: absolute;
+    top: 300px;
+  }
+}
+#head > button {
+  position: relative;
+  top: 390px;
+  border-color: #73c7e6;
+  background-color: transparent;
+  color: #73c7e6;
+  width: 160px;
+  padding: 10px 20px 10px 20px;
+}
+#head > button:hover {
+  color: #FAA93B;
+  border-color: #FAA93B;
+}
+/* Banner CSS complete */
+/* Section1: */
+
+#section1 {
+  height: 300px;
+}
+#section1 > h2 {
+  position: relative;
+  top: -140px;
+}
+.col {
+  text-align: center;
+}
+#image {
+  position: relative;
+  top: -330px;
+  left: 17px;
+}
