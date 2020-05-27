@@ -22,16 +22,19 @@
     top: 300px;
   }
 }
-#head > button {
+#demo-button {
   position: relative;
-  top: 390px;
+  top: -85px;
+  border-style: solid;
+  border-width: 1px;
   border-color: #73c7e6;
-  background-color: transparent;
   color: #73c7e6;
   width: 160px;
   padding: 10px 20px 10px 20px;
 }
-#head > button:hover {
+
+#demo-button:hover {
+  text-decoration: none;
   color: #FAA93B;
   border-color: #FAA93B;
 }
